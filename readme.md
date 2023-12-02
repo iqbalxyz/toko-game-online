@@ -1,13 +1,13 @@
 # Untuk Tugas Web Programming Kelompok 3 Univ. Nusa Mandiri
 
-This project built with framework Codeigniter 3 and MySql
+Project ini dibuat untuk tugas kuliah Kelompok 3
 
-Login with admin role:
+Web Programming
 
+Prodi Informatika Universitas Nusa Mandiri
 
-email: admin@gmail.com
-pass : admin
-
-terinspirasi oleh : https://github.com/tegarpratama
 
 ![image info](screencapture.png)
+
+
+Terinspirasi oleh : https://github.com/tegarpratama
