@@ -1,4 +1,4 @@
-# Untuk Tugas Web Programming Kelompok 3 Univ. Nusa Mandiri
+# Toko Game Online
 
 Project ini dibuat untuk tugas kuliah Kelompok 3
 
