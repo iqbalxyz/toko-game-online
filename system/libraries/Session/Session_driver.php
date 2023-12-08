@@ -136,6 +136,7 @@ abstract class CI_Session_driver implements SessionHandlerInterface {
 	 * when session_destroy() is called.
 	 *
 	 * @return	bool
+	 * versi ini deprecated pada parameter ke 2 NULL
 	 */
 	protected function _cookie_destroy()
 	{
@@ -149,6 +150,21 @@ abstract class CI_Session_driver implements SessionHandlerInterface {
 			TRUE
 		);
 	}
+
+	// Versi terbaru
+// 	protected function _cookie_destroy()
+// {
+//     return setcookie(
+//         $this->_config['cookie_name'],
+//         '',  // Updated to an empty string
+//         1,
+//         $this->_config['cookie_path'],
+//         $this->_config['cookie_domain'],
+//         $this->_config['cookie_secure'],
+//         TRUE
+//     );
+// }
+
 
 	// ------------------------------------------------------------------------
 
